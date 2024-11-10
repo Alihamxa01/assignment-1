@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import Link from 'next/link';
 
@@ -19,13 +17,16 @@ export default function Page() {
         I provide a range of digital services to help you stand out online.<mark className="bg-green-400"> From logo design, graphic design, video editing & website development to personalized portfolios and custom web projects.</mark> My goal is to bring your ideas to life. I work closely with each client to understand exactly what they need, focusing on both style and ease of use. With every project, I make sure the process is clear and smooth from start to finish. Whether you need a unique logo, a personal website, or a custom project, I’m here to create something special that fits your vision.
       </p>
 
-<h2 className=" font-black text-5xl underline text-center  text-emerald-950">MY PROJECTS</h2>
+      <h2 className="font-black text-5xl underline text-center text-emerald-950">MY PROJECTS</h2>
       <p className="text-xl text-center flex justify-center m-7 font-semibold mt-20">
         Here are some of my recent projects that showcase my skills and creativity. Each project is designed with care, attention to detail, and a commitment to quality.<br/>CLICK ON PROJECTS
       </p>
-      <Link href="../service/project" className="hover:text-green-500 font-black mt-0 ml-[550px] text-2xl text-center hover:underline text-emerald-900">PROJECTS</Link>
 
+      <div className="flex justify-center">
+        <Link href="../service/project" className="hover:text-green-500 font-black text-2xl hover:underline text-emerald-900">
+          PROJECTS
+        </Link>
+      </div>
     </div>
   );
 }
-

@@ -9,8 +9,8 @@ export default function Page() {
         <h1 className="justify-center">PORTFOLIO</h1>
 
         <nav className="text-lg space-x-3 justify-end">
-          <Link href="/" passHref>
-            <a className="hover:text-emerald-200 hover:underline">BACK</a>
+          <Link href="/" className="hover:text-emerald-200 hover:underline">
+            BACK
           </Link>
         </nav>
       </div>
@@ -40,7 +40,7 @@ export default function Page() {
           href="https://www.linkedin.com/in/ali-hamza-nadeem-479b42292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center  duration-300 hover:font-black text-emerald-900 hover:text-green-700 text-xl"
+          className="flex items-center duration-300 hover:font-black text-emerald-900 hover:text-green-700 text-xl"
         >
           <FaLinkedin className="mr-2 text-3xl" />
           <span className="text-xl">LinkedIn</span>

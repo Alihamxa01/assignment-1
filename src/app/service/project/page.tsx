@@ -44,12 +44,9 @@ export default function page() {
       </h1>
       {/* img2 */}
       <div className="max-w-xl hover:scale-105 hover:shadow-green-400 shadow-lg hover:bg-teal-800 duration-200 pt-3 mt-5 rounded-lg">
-        {/* <a>
-          <Image src="/img4.jpg" alt="photo" height="300" width="300" className="mx-auto mt-5 shadow-lg bg-transparent hover:bg-teal-800 hover:shadow-lg hover:shadow-green-400 duration-200 rounded-lg" />
-        </a> */}
-        {/* para 2 */}
+     
         <p className="text-xl font-medium pb-3 mt-4 text-white px-6">
-        I created a website named "Mr. Foodie" to showcase my skills, featuring a menu bar, header, footer, and a hero section with food images. It also includes a fast food menu.
+        I created a website named Mr. Foodie to showcase my skills, featuring a menu bar, header, footer, and a hero section with food images. It also includes a fast food menu.
 
 
 </p>
