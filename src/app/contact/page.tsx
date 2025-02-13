@@ -35,7 +35,7 @@ export default function Page() {
           <FaEnvelope className="mr-2 text-3xl" />
           <span className="text-xl">hamza.nadeem.0106@gmail.com</span>
         </a>
-
+<br/>
         <a
           href="https://www.linkedin.com/in/ali-hamza-nadeem-479b42292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
